@@ -44,12 +44,12 @@ function count(n = 1) {
 
 // count()
 
-// function sum(nums){
-//     //Base Case
-//     if(nums.length === 0) return 0;
-//     //Normal Case
-//     return nums[0] + sum(nums.slice(1))
-// }
+function sum(nums){
+    //Base Case
+    if(nums.length === 0) return 0;
+    //Normal Case
+    return nums[0] + sum(nums.slice(1))
+}
 
 // sum([3,4,5])
 //      3 + sum([4,5])
